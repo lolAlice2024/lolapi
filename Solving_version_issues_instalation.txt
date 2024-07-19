@@ -1,0 +1,142 @@
+iMac-de-Lola:LOLA_API lolamoreno$ # installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/iMac-de-Lola:LOLA_API lolamoreno$ curl -o- httpbashraw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh |  
+
+# download and install Node.js (you may need to restart the terminal)
+nvm install 16
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v16.20.2`
+
+# verifies the right NPM version is in the environment
+npm -v # should print `8.19.4`  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16555  100 16555    0     0  11710      0  0:00:01  0:00:01 --:--:-- 11716
+=> nvm is already installed in /Users/lolamoreno/.nvm, trying to update using git
+=> => Compressing and cleaning up git repository
+
+=> Appending nvm source string to /Users/lolamoreno/.bash_profile
+=> Appending bash_completion source string to /Users/lolamoreno/.bash_profile
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ # download and install Node.js (you may need to restart the terminal)
+iMac-de-Lola:LOLA_API lolamoreno$ nvm install 16
+bash: nvm: command not found
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ # verifies the right Node.js version is in the environment
+iMac-de-Lola:LOLA_API lolamoreno$ node -v # should print `v16.20.2`
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ # verifies the right NPM version is in the environment
+iMac-de-Lola:LOLA_API lolamoreno$ npm -v # should print `8.19.4`
+
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ npm init
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/node (which was built for Mac OS X 10.15)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+iMac-de-Lola:LOLA_API lolamoreno$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16555  100 16555    0     0  12501      0  0:00:01  0:00:01 --:--:-- 12503
+=> nvm is already installed in /Users/lolamoreno/.nvm, trying to update using git
+=> => Compressing and cleaning up git repository
+
+=> nvm source string already in /Users/lolamoreno/.bash_profile
+=> bash_completion source string already in /Users/lolamoreno/.bash_profile
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+iMac-de-Lola:LOLA_API lolamoreno$ export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"iMac-de-Lola:LOLA_API lolamoreno$ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+iMac-de-Lola:LOLA_API lolamoreno$ [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ 
+iMac-de-Lola:LOLA_API lolamoreno$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (lola_api) lolapi
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/lolamoreno/LOLA_API/package.json:
+
+{
+  "name": "lolapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) y
+npm notice 
+npm notice New major version of npm available! 7.10.0 -> 10.8.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+npm notice Run npm install -g npm@10.8.2 to update!
+npm notice 
+iMac-de-Lola:LOLA_API lolamoreno$  npm install express
+
+added 64 packages, and audited 65 packages in 34s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New major version of npm available! 7.10.0 -> 10.8.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+npm notice Run npm install -g npm@10.8.2 to update!
+npm notice 
+iMac-de-Lola:LOLA_API lolamoreno$ 

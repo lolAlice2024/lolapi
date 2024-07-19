@@ -1,0 +1,607 @@
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+iMac-de-Lola:LOLA_API lolamoreno$ brew install gnu-sed
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+bash: brew: command not found
+iMac-de-Lola:LOLA_API lolamoreno$ xcode-select --install
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+iMac-de-Lola:LOLA_API lolamoreno$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> You are using macOS 10.13.
+==> We (and Apple) do not provide support for this old version.
+This installation may not succeed.
+After installation, you will encounter build failures with some formulae.
+Please create pull requests instead of asking for help on Homebrew's GitHub,
+Twitter or any other official channels. You are responsible for resolving any
+issues you experience while you are running this old version.
+
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man3
+/usr/local/share/man/man5
+/usr/local/share/man/man7
+==> The following existing directories will have their owner set to lolamoreno:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man3
+/usr/local/share/man/man5
+/usr/local/share/man/man7
+==> The following existing directories will have their group set to admin:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man3
+/usr/local/share/man/man5
+/usr/local/share/man/man7
+==> The following new directories will be created:
+/usr/local/etc
+/usr/local/sbin
+/usr/local/var
+/usr/local/opt
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var/homebrew
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3 /usr/local/share/man/man5 /usr/local/share/man/man7
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3 /usr/local/share/man/man5 /usr/local/share/man/man7
+==> /usr/bin/sudo /usr/sbin/chown lolamoreno /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3 /usr/local/share/man/man5 /usr/local/share/man/man7
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3 /usr/local/share/man/man5 /usr/local/share/man/man7
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/chmod ug=rwx /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/chmod go-w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown lolamoreno /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R lolamoreno:admin /usr/local/Homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/lolamoreno/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/lolamoreno/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R lolamoreno /Users/lolamoreno/Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 275252, done.
+remote: Counting objects: 100% (39681/39681), done.
+remote: Compressing objects: 100% (603/603), done.
+remote: Total 275252 (delta 39379), reused 39127 (delta 39078), pack-reused 235571
+Receiving objects: 100% (275252/275252), 82.35 MiB | 5.03 MiB/s, done.
+Resolving deltas: 100% (198388/198388), done.
+From https://github.com/Homebrew/brew
+ * [new branch]      fix-frozen-array-modification-errors -> origin/fix-frozen-array-modification-errors
+ * [new branch]      install-network-block                -> origin/install-network-block
+ * [new branch]      load-internal-cask-json-v3           -> origin/load-internal-cask-json-v3
+ * [new branch]      master                               -> origin/master
+ * [new branch]      more-public-apis-sorbet-strict       -> origin/more-public-apis-sorbet-strict
+ * [new branch]      more-sorbet-strict                   -> origin/more-sorbet-strict
+ * [new branch]      rubocop-avoid-fileutils-rmrf         -> origin/rubocop-avoid-fileutils-rmrf
+ * [new branch]      srb-strict-utils                     -> origin/srb-strict-utils
+ * [new branch]      tmpdir-sandbox                       -> origin/tmpdir-sandbox
+ * [new tag]               0.1                                  -> 0.1
+ * [new tag]               0.2                                  -> 0.2
+ * [new tag]               0.3                                  -> 0.3
+ * [new tag]               0.4                                  -> 0.4
+ * [new tag]               0.5                                  -> 0.5
+ * [new tag]               0.6                                  -> 0.6
+ * [new tag]               0.7                                  -> 0.7
+ * [new tag]               0.7.1                                -> 0.7.1
+ * [new tag]               0.8                                  -> 0.8
+ * [new tag]               0.8.1                                -> 0.8.1
+ * [new tag]               0.9                                  -> 0.9
+ * [new tag]               0.9.1                                -> 0.9.1
+ * [new tag]               0.9.2                                -> 0.9.2
+ * [new tag]               0.9.3                                -> 0.9.3
+ * [new tag]               0.9.4                                -> 0.9.4
+ * [new tag]               0.9.5                                -> 0.9.5
+ * [new tag]               0.9.8                                -> 0.9.8
+ * [new tag]               0.9.9                                -> 0.9.9
+ * [new tag]               1.0.0                                -> 1.0.0
+ * [new tag]               1.0.1                                -> 1.0.1
+ * [new tag]               1.0.2                                -> 1.0.2
+ * [new tag]               1.0.3                                -> 1.0.3
+ * [new tag]               1.0.4                                -> 1.0.4
+ * [new tag]               1.0.5                                -> 1.0.5
+ * [new tag]               1.0.6                                -> 1.0.6
+ * [new tag]               1.0.7                                -> 1.0.7
+ * [new tag]               1.0.8                                -> 1.0.8
+ * [new tag]               1.0.9                                -> 1.0.9
+ * [new tag]               1.1.0                                -> 1.1.0
+ * [new tag]               1.1.1                                -> 1.1.1
+ * [new tag]               1.1.10                               -> 1.1.10
+ * [new tag]               1.1.11                               -> 1.1.11
+ * [new tag]               1.1.12                               -> 1.1.12
+ * [new tag]               1.1.13                               -> 1.1.13
+ * [new tag]               1.1.2                                -> 1.1.2
+ * [new tag]               1.1.3                                -> 1.1.3
+ * [new tag]               1.1.4                                -> 1.1.4
+ * [new tag]               1.1.5                                -> 1.1.5
+ * [new tag]               1.1.6                                -> 1.1.6
+ * [new tag]               1.1.7                                -> 1.1.7
+ * [new tag]               1.1.8                                -> 1.1.8
+ * [new tag]               1.1.9                                -> 1.1.9
+ * [new tag]               1.2.0                                -> 1.2.0
+ * [new tag]               1.2.1                                -> 1.2.1
+ * [new tag]               1.2.2                                -> 1.2.2
+ * [new tag]               1.2.3                                -> 1.2.3
+ * [new tag]               1.2.4                                -> 1.2.4
+ * [new tag]               1.2.5                                -> 1.2.5
+ * [new tag]               1.2.6                                -> 1.2.6
+ * [new tag]               1.3.0                                -> 1.3.0
+ * [new tag]               1.3.1                                -> 1.3.1
+ * [new tag]               1.3.2                                -> 1.3.2
+ * [new tag]               1.3.3                                -> 1.3.3
+ * [new tag]               1.3.4                                -> 1.3.4
+ * [new tag]               1.3.5                                -> 1.3.5
+ * [new tag]               1.3.6                                -> 1.3.6
+ * [new tag]               1.3.7                                -> 1.3.7
+ * [new tag]               1.3.8                                -> 1.3.8
+ * [new tag]               1.3.9                                -> 1.3.9
+ * [new tag]               1.4.0                                -> 1.4.0
+ * [new tag]               1.4.1                                -> 1.4.1
+ * [new tag]               1.4.2                                -> 1.4.2
+ * [new tag]               1.4.3                                -> 1.4.3
+ * [new tag]               1.5.0                                -> 1.5.0
+ * [new tag]               1.5.1                                -> 1.5.1
+ * [new tag]               1.5.10                               -> 1.5.10
+ * [new tag]               1.5.11                               -> 1.5.11
+ * [new tag]               1.5.12                               -> 1.5.12
+ * [new tag]               1.5.13                               -> 1.5.13
+ * [new tag]               1.5.14                               -> 1.5.14
+ * [new tag]               1.5.2                                -> 1.5.2
+ * [new tag]               1.5.3                                -> 1.5.3
+ * [new tag]               1.5.4                                -> 1.5.4
+ * [new tag]               1.5.5                                -> 1.5.5
+ * [new tag]               1.5.6                                -> 1.5.6
+ * [new tag]               1.5.7                                -> 1.5.7
+ * [new tag]               1.5.8                                -> 1.5.8
+ * [new tag]               1.5.9                                -> 1.5.9
+ * [new tag]               1.6.0                                -> 1.6.0
+ * [new tag]               1.6.1                                -> 1.6.1
+ * [new tag]               1.6.10                               -> 1.6.10
+ * [new tag]               1.6.11                               -> 1.6.11
+ * [new tag]               1.6.12                               -> 1.6.12
+ * [new tag]               1.6.13                               -> 1.6.13
+ * [new tag]               1.6.14                               -> 1.6.14
+ * [new tag]               1.6.15                               -> 1.6.15
+ * [new tag]               1.6.16                               -> 1.6.16
+ * [new tag]               1.6.17                               -> 1.6.17
+ * [new tag]               1.6.2                                -> 1.6.2
+ * [new tag]               1.6.3                                -> 1.6.3
+ * [new tag]               1.6.4                                -> 1.6.4
+ * [new tag]               1.6.5                                -> 1.6.5
+ * [new tag]               1.6.6                                -> 1.6.6
+ * [new tag]               1.6.7                                -> 1.6.7
+ * [new tag]               1.6.8                                -> 1.6.8
+ * [new tag]               1.6.9                                -> 1.6.9
+ * [new tag]               1.7.0                                -> 1.7.0
+ * [new tag]               1.7.1                                -> 1.7.1
+ * [new tag]               1.7.2                                -> 1.7.2
+ * [new tag]               1.7.3                                -> 1.7.3
+ * [new tag]               1.7.4                                -> 1.7.4
+ * [new tag]               1.7.5                                -> 1.7.5
+ * [new tag]               1.7.6                                -> 1.7.6
+ * [new tag]               1.7.7                                -> 1.7.7
+ * [new tag]               1.8.0                                -> 1.8.0
+ * [new tag]               1.8.1                                -> 1.8.1
+ * [new tag]               1.8.2                                -> 1.8.2
+ * [new tag]               1.8.3                                -> 1.8.3
+ * [new tag]               1.8.4                                -> 1.8.4
+ * [new tag]               1.8.5                                -> 1.8.5
+ * [new tag]               1.8.6                                -> 1.8.6
+ * [new tag]               1.9.0                                -> 1.9.0
+ * [new tag]               1.9.1                                -> 1.9.1
+ * [new tag]               1.9.2                                -> 1.9.2
+ * [new tag]               1.9.3                                -> 1.9.3
+ * [new tag]               2.0.0                                -> 2.0.0
+ * [new tag]               2.0.1                                -> 2.0.1
+ * [new tag]               2.0.2                                -> 2.0.2
+ * [new tag]               2.0.3                                -> 2.0.3
+ * [new tag]               2.0.4                                -> 2.0.4
+ * [new tag]               2.0.5                                -> 2.0.5
+ * [new tag]               2.0.6                                -> 2.0.6
+ * [new tag]               2.1.0                                -> 2.1.0
+ * [new tag]               2.1.1                                -> 2.1.1
+ * [new tag]               2.1.10                               -> 2.1.10
+ * [new tag]               2.1.11                               -> 2.1.11
+ * [new tag]               2.1.12                               -> 2.1.12
+ * [new tag]               2.1.13                               -> 2.1.13
+ * [new tag]               2.1.14                               -> 2.1.14
+ * [new tag]               2.1.15                               -> 2.1.15
+ * [new tag]               2.1.16                               -> 2.1.16
+ * [new tag]               2.1.2                                -> 2.1.2
+ * [new tag]               2.1.3                                -> 2.1.3
+ * [new tag]               2.1.4                                -> 2.1.4
+ * [new tag]               2.1.5                                -> 2.1.5
+ * [new tag]               2.1.6                                -> 2.1.6
+ * [new tag]               2.1.7                                -> 2.1.7
+ * [new tag]               2.1.8                                -> 2.1.8
+ * [new tag]               2.1.9                                -> 2.1.9
+ * [new tag]               2.2.0                                -> 2.2.0
+ * [new tag]               2.2.1                                -> 2.2.1
+ * [new tag]               2.2.10                               -> 2.2.10
+ * [new tag]               2.2.11                               -> 2.2.11
+ * [new tag]               2.2.12                               -> 2.2.12
+ * [new tag]               2.2.13                               -> 2.2.13
+ * [new tag]               2.2.14                               -> 2.2.14
+ * [new tag]               2.2.15                               -> 2.2.15
+ * [new tag]               2.2.16                               -> 2.2.16
+ * [new tag]               2.2.17                               -> 2.2.17
+ * [new tag]               2.2.2                                -> 2.2.2
+ * [new tag]               2.2.3                                -> 2.2.3
+ * [new tag]               2.2.4                                -> 2.2.4
+ * [new tag]               2.2.5                                -> 2.2.5
+ * [new tag]               2.2.6                                -> 2.2.6
+ * [new tag]               2.2.7                                -> 2.2.7
+ * [new tag]               2.2.8                                -> 2.2.8
+ * [new tag]               2.2.9                                -> 2.2.9
+ * [new tag]               2.3.0                                -> 2.3.0
+ * [new tag]               2.4.0                                -> 2.4.0
+ * [new tag]               2.4.1                                -> 2.4.1
+ * [new tag]               2.4.10                               -> 2.4.10
+ * [new tag]               2.4.11                               -> 2.4.11
+ * [new tag]               2.4.12                               -> 2.4.12
+ * [new tag]               2.4.13                               -> 2.4.13
+ * [new tag]               2.4.14                               -> 2.4.14
+ * [new tag]               2.4.15                               -> 2.4.15
+ * [new tag]               2.4.16                               -> 2.4.16
+ * [new tag]               2.4.2                                -> 2.4.2
+ * [new tag]               2.4.3                                -> 2.4.3
+ * [new tag]               2.4.4                                -> 2.4.4
+ * [new tag]               2.4.5                                -> 2.4.5
+ * [new tag]               2.4.6                                -> 2.4.6
+ * [new tag]               2.4.7                                -> 2.4.7
+ * [new tag]               2.4.8                                -> 2.4.8
+ * [new tag]               2.4.9                                -> 2.4.9
+ * [new tag]               2.5.0                                -> 2.5.0
+ * [new tag]               2.5.1                                -> 2.5.1
+ * [new tag]               2.5.10                               -> 2.5.10
+ * [new tag]               2.5.11                               -> 2.5.11
+ * [new tag]               2.5.12                               -> 2.5.12
+ * [new tag]               2.5.2                                -> 2.5.2
+ * [new tag]               2.5.3                                -> 2.5.3
+ * [new tag]               2.5.4                                -> 2.5.4
+ * [new tag]               2.5.5                                -> 2.5.5
+ * [new tag]               2.5.6                                -> 2.5.6
+ * [new tag]               2.5.7                                -> 2.5.7
+ * [new tag]               2.5.8                                -> 2.5.8
+ * [new tag]               2.5.9                                -> 2.5.9
+ * [new tag]               2.6.0                                -> 2.6.0
+ * [new tag]               2.6.1                                -> 2.6.1
+ * [new tag]               2.6.2                                -> 2.6.2
+ * [new tag]               2.7.0                                -> 2.7.0
+ * [new tag]               2.7.1                                -> 2.7.1
+ * [new tag]               2.7.2                                -> 2.7.2
+ * [new tag]               2.7.3                                -> 2.7.3
+ * [new tag]               2.7.4                                -> 2.7.4
+ * [new tag]               2.7.5                                -> 2.7.5
+ * [new tag]               2.7.6                                -> 2.7.6
+ * [new tag]               2.7.7                                -> 2.7.7
+ * [new tag]               3.0.0                                -> 3.0.0
+ * [new tag]               3.0.1                                -> 3.0.1
+ * [new tag]               3.0.10                               -> 3.0.10
+ * [new tag]               3.0.11                               -> 3.0.11
+ * [new tag]               3.0.2                                -> 3.0.2
+ * [new tag]               3.0.3                                -> 3.0.3
+ * [new tag]               3.0.4                                -> 3.0.4
+ * [new tag]               3.0.5                                -> 3.0.5
+ * [new tag]               3.0.6                                -> 3.0.6
+ * [new tag]               3.0.7                                -> 3.0.7
+ * [new tag]               3.0.8                                -> 3.0.8
+ * [new tag]               3.0.9                                -> 3.0.9
+ * [new tag]               3.1.0                                -> 3.1.0
+ * [new tag]               3.1.1                                -> 3.1.1
+ * [new tag]               3.1.10                               -> 3.1.10
+ * [new tag]               3.1.11                               -> 3.1.11
+ * [new tag]               3.1.12                               -> 3.1.12
+ * [new tag]               3.1.2                                -> 3.1.2
+ * [new tag]               3.1.3                                -> 3.1.3
+ * [new tag]               3.1.4                                -> 3.1.4
+ * [new tag]               3.1.5                                -> 3.1.5
+ * [new tag]               3.1.6                                -> 3.1.6
+ * [new tag]               3.1.7                                -> 3.1.7
+ * [new tag]               3.1.8                                -> 3.1.8
+ * [new tag]               3.1.9                                -> 3.1.9
+ * [new tag]               3.2.0                                -> 3.2.0
+ * [new tag]               3.2.1                                -> 3.2.1
+ * [new tag]               3.2.10                               -> 3.2.10
+ * [new tag]               3.2.11                               -> 3.2.11
+ * [new tag]               3.2.12                               -> 3.2.12
+ * [new tag]               3.2.13                               -> 3.2.13
+ * [new tag]               3.2.14                               -> 3.2.14
+ * [new tag]               3.2.15                               -> 3.2.15
+ * [new tag]               3.2.16                               -> 3.2.16
+ * [new tag]               3.2.17                               -> 3.2.17
+ * [new tag]               3.2.2                                -> 3.2.2
+ * [new tag]               3.2.3                                -> 3.2.3
+ * [new tag]               3.2.4                                -> 3.2.4
+ * [new tag]               3.2.5                                -> 3.2.5
+ * [new tag]               3.2.6                                -> 3.2.6
+ * [new tag]               3.2.7                                -> 3.2.7
+ * [new tag]               3.2.8                                -> 3.2.8
+ * [new tag]               3.2.9                                -> 3.2.9
+ * [new tag]               3.3.0                                -> 3.3.0
+ * [new tag]               3.3.1                                -> 3.3.1
+ * [new tag]               3.3.10                               -> 3.3.10
+ * [new tag]               3.3.11                               -> 3.3.11
+ * [new tag]               3.3.12                               -> 3.3.12
+ * [new tag]               3.3.13                               -> 3.3.13
+ * [new tag]               3.3.14                               -> 3.3.14
+ * [new tag]               3.3.15                               -> 3.3.15
+ * [new tag]               3.3.16                               -> 3.3.16
+ * [new tag]               3.3.2                                -> 3.3.2
+ * [new tag]               3.3.3                                -> 3.3.3
+ * [new tag]               3.3.4                                -> 3.3.4
+ * [new tag]               3.3.5                                -> 3.3.5
+ * [new tag]               3.3.6                                -> 3.3.6
+ * [new tag]               3.3.7                                -> 3.3.7
+ * [new tag]               3.3.8                                -> 3.3.8
+ * [new tag]               3.3.9                                -> 3.3.9
+ * [new tag]               3.4.0                                -> 3.4.0
+ * [new tag]               3.4.1                                -> 3.4.1
+ * [new tag]               3.4.10                               -> 3.4.10
+ * [new tag]               3.4.11                               -> 3.4.11
+ * [new tag]               3.4.2                                -> 3.4.2
+ * [new tag]               3.4.3                                -> 3.4.3
+ * [new tag]               3.4.4                                -> 3.4.4
+ * [new tag]               3.4.5                                -> 3.4.5
+ * [new tag]               3.4.6                                -> 3.4.6
+ * [new tag]               3.4.7                                -> 3.4.7
+ * [new tag]               3.4.8                                -> 3.4.8
+ * [new tag]               3.4.9                                -> 3.4.9
+ * [new tag]               3.5.0                                -> 3.5.0
+ * [new tag]               3.5.1                                -> 3.5.1
+ * [new tag]               3.5.10                               -> 3.5.10
+ * [new tag]               3.5.2                                -> 3.5.2
+ * [new tag]               3.5.3                                -> 3.5.3
+ * [new tag]               3.5.4                                -> 3.5.4
+ * [new tag]               3.5.5                                -> 3.5.5
+ * [new tag]               3.5.6                                -> 3.5.6
+ * [new tag]               3.5.7                                -> 3.5.7
+ * [new tag]               3.5.8                                -> 3.5.8
+ * [new tag]               3.5.9                                -> 3.5.9
+ * [new tag]               3.6.0                                -> 3.6.0
+ * [new tag]               3.6.1                                -> 3.6.1
+ * [new tag]               3.6.10                               -> 3.6.10
+ * [new tag]               3.6.11                               -> 3.6.11
+ * [new tag]               3.6.12                               -> 3.6.12
+ * [new tag]               3.6.13                               -> 3.6.13
+ * [new tag]               3.6.14                               -> 3.6.14
+ * [new tag]               3.6.15                               -> 3.6.15
+ * [new tag]               3.6.16                               -> 3.6.16
+ * [new tag]               3.6.17                               -> 3.6.17
+ * [new tag]               3.6.18                               -> 3.6.18
+ * [new tag]               3.6.19                               -> 3.6.19
+ * [new tag]               3.6.2                                -> 3.6.2
+ * [new tag]               3.6.20                               -> 3.6.20
+ * [new tag]               3.6.21                               -> 3.6.21
+ * [new tag]               3.6.3                                -> 3.6.3
+ * [new tag]               3.6.4                                -> 3.6.4
+ * [new tag]               3.6.5                                -> 3.6.5
+ * [new tag]               3.6.6                                -> 3.6.6
+ * [new tag]               3.6.7                                -> 3.6.7
+ * [new tag]               3.6.8                                -> 3.6.8
+ * [new tag]               3.6.9                                -> 3.6.9
+ * [new tag]               4.0.0                                -> 4.0.0
+ * [new tag]               4.0.1                                -> 4.0.1
+ * [new tag]               4.0.10                               -> 4.0.10
+ * [new tag]               4.0.11                               -> 4.0.11
+ * [new tag]               4.0.12                               -> 4.0.12
+ * [new tag]               4.0.13                               -> 4.0.13
+ * [new tag]               4.0.14                               -> 4.0.14
+ * [new tag]               4.0.15                               -> 4.0.15
+ * [new tag]               4.0.16                               -> 4.0.16
+ * [new tag]               4.0.17                               -> 4.0.17
+ * [new tag]               4.0.18                               -> 4.0.18
+ * [new tag]               4.0.19                               -> 4.0.19
+ * [new tag]               4.0.2                                -> 4.0.2
+ * [new tag]               4.0.20                               -> 4.0.20
+ * [new tag]               4.0.21                               -> 4.0.21
+ * [new tag]               4.0.22                               -> 4.0.22
+ * [new tag]               4.0.23                               -> 4.0.23
+ * [new tag]               4.0.24                               -> 4.0.24
+ * [new tag]               4.0.25                               -> 4.0.25
+ * [new tag]               4.0.26                               -> 4.0.26
+ * [new tag]               4.0.27                               -> 4.0.27
+ * [new tag]               4.0.28                               -> 4.0.28
+ * [new tag]               4.0.3                                -> 4.0.3
+ * [new tag]               4.0.4                                -> 4.0.4
+ * [new tag]               4.0.5                                -> 4.0.5
+ * [new tag]               4.0.6                                -> 4.0.6
+ * [new tag]               4.0.7                                -> 4.0.7
+ * [new tag]               4.0.8                                -> 4.0.8
+ * [new tag]               4.0.9                                -> 4.0.9
+ * [new tag]               4.1.0                                -> 4.1.0
+ * [new tag]               4.1.1                                -> 4.1.1
+ * [new tag]               4.1.10                               -> 4.1.10
+ * [new tag]               4.1.11                               -> 4.1.11
+ * [new tag]               4.1.12                               -> 4.1.12
+ * [new tag]               4.1.13                               -> 4.1.13
+ * [new tag]               4.1.14                               -> 4.1.14
+ * [new tag]               4.1.15                               -> 4.1.15
+ * [new tag]               4.1.16                               -> 4.1.16
+ * [new tag]               4.1.17                               -> 4.1.17
+ * [new tag]               4.1.18                               -> 4.1.18
+ * [new tag]               4.1.19                               -> 4.1.19
+ * [new tag]               4.1.2                                -> 4.1.2
+ * [new tag]               4.1.20                               -> 4.1.20
+ * [new tag]               4.1.21                               -> 4.1.21
+ * [new tag]               4.1.22                               -> 4.1.22
+ * [new tag]               4.1.23                               -> 4.1.23
+ * [new tag]               4.1.24                               -> 4.1.24
+ * [new tag]               4.1.25                               -> 4.1.25
+ * [new tag]               4.1.3                                -> 4.1.3
+ * [new tag]               4.1.4                                -> 4.1.4
+ * [new tag]               4.1.5                                -> 4.1.5
+ * [new tag]               4.1.6                                -> 4.1.6
+ * [new tag]               4.1.7                                -> 4.1.7
+ * [new tag]               4.1.8                                -> 4.1.8
+ * [new tag]               4.2.0                                -> 4.2.0
+ * [new tag]               4.2.1                                -> 4.2.1
+ * [new tag]               4.2.10                               -> 4.2.10
+ * [new tag]               4.2.11                               -> 4.2.11
+ * [new tag]               4.2.12                               -> 4.2.12
+ * [new tag]               4.2.13                               -> 4.2.13
+ * [new tag]               4.2.15                               -> 4.2.15
+ * [new tag]               4.2.16                               -> 4.2.16
+ * [new tag]               4.2.17                               -> 4.2.17
+ * [new tag]               4.2.18                               -> 4.2.18
+ * [new tag]               4.2.19                               -> 4.2.19
+ * [new tag]               4.2.2                                -> 4.2.2
+ * [new tag]               4.2.20                               -> 4.2.20
+ * [new tag]               4.2.21                               -> 4.2.21
+ * [new tag]               4.2.3                                -> 4.2.3
+ * [new tag]               4.2.4                                -> 4.2.4
+ * [new tag]               4.2.5                                -> 4.2.5
+ * [new tag]               4.2.6                                -> 4.2.6
+ * [new tag]               4.2.7                                -> 4.2.7
+ * [new tag]               4.2.8                                -> 4.2.8
+ * [new tag]               4.2.9                                -> 4.2.9
+ * [new tag]               4.3.0                                -> 4.3.0
+ * [new tag]               4.3.1                                -> 4.3.1
+ * [new tag]               4.3.2                                -> 4.3.2
+ * [new tag]               4.3.3                                -> 4.3.3
+ * [new tag]               4.3.4                                -> 4.3.4
+ * [new tag]               4.3.5                                -> 4.3.5
+ * [new tag]               4.3.6                                -> 4.3.6
+ * [new tag]               4.3.7                                -> 4.3.7
+ * [new tag]               4.3.8                                -> 4.3.8
+ * [new tag]               4.3.9                                -> 4.3.9
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Total 55 (delta 33), reused 33 (delta 33), pack-reused 22
+Unpacking objects: 100% (55/55), done.
+From https://github.com/Homebrew/brew
+ * [new tag]               4.0.29     -> 4.0.29
+ * [new tag]               4.1.9      -> 4.1.9
+ * [new tag]               4.2.14     -> 4.2.14
+ * [new tag]               4.3.10     -> 4.3.10
+Checking out files: 100% (2339/2339), done.
+Switched to a new branch 'stable'
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:a5ef040e054444a0eb2cbcc1032fed14702dfbe2e55b25e609f3ce643f23c4ee
+######################################################################## 100.0%
+==> Pouring portable-ruby-3.3.3.el_capitan.bottle.tar.gz
+Warning: Using `--insecure` with curl to download formula.jws.json because we need it to run `brew install ca-certificates` in order to download securely from now on. Checksums will still be verified.
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+########################################################################################################################################################## 100.0%
+Warning: Using `--insecure` with curl to download formula_tap_migrations.jws.json because we need it to run `brew install ca-certificates` in order to download securely from now on. Checksums will still be verified.
+==> Downloading https://formulae.brew.sh/api/formula_tap_migrations.jws.json
+########################################################################################################################################################## 100.0%
+Warning: Using `--insecure` with curl to download cask.jws.json because we need it to run `brew install ca-certificates` in order to download securely from now on. Checksums will still be verified.
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+########################################################################################################################################################## 100.0%
+Warning: You are using macOS 10.13.
+We (and Apple) do not provide support for this old version.
+It is expected behaviour that some formulae will fail to build in this old version.
+It is expected behaviour that Homebrew will be buggy and slow.
+Do not create any issues about this on Homebrew's GitHub repositories.
+Do not create any issues even if you think this message is unrelated.
+Any opened issues will be immediately closed without response.
+Do not ask for help from Homebrew or its maintainers on social media.
+You may ask for help in Homebrew's discussions but are unlikely to receive a response.
+Try to figure out the problem yourself and submit a fix as a pull request.
+We will review it but may or may not accept it.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-07-02
+########################################################################################################################################################## 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2
+Warning: Using `--insecure` with curl to download an updated certificates file because we need it to run `brew install ca-certificates` in order to download securely from now on. Checksums will still be verified.
+########################################################################################################################################################## 100.0%
+==> Pouring ca-certificates--2024-07-02.all.bottle.tar.gz
+Warning: Using `--insecure` with curl to download formula.jws.json because we need it to run `brew install ca-certificates` in order to download securely from now on. Checksums will still be verified.
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+########################################################################################################################################################## 100.0%
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2024-07-02: 4 files, 231.4KB
+==> Running `brew cleanup ca-certificates`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Updating Homebrew...
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/lolamoreno/.bash_profile
+    eval "$(/usr/local/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+iMac-de-Lola:LOLA_API lolamoreno$ brew help
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+iMac-de-Lola:LOLA_API lolamoreno$ brew update
+sed: illegal option -- r
+usage: sed script [-Ealn] [-i extension] [file ...]
+       sed [-Ealn] [-i extension] [-e script] ... [-f script_file] ... [file ...]
+==> Updating Homebrew...
+Already up-to-date.
+iMac-de-Lola:LOLA_API lolamoreno$ 
