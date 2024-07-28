@@ -1,0 +1,156 @@
+{
+  "openapi" : "3.0.0",
+  "info" : {
+    "title" : "api2",
+    "description" : "TEST OF FEATURES",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "https://virtserver.swaggerhub.com/LolAlice/test2/1.0.0",
+    "description" : "SwaggerHub API Auto Mocking"
+  } ],
+  "security" : [ {
+    "BasicAuth" : [ ]
+  } ],
+  "paths" : {
+    "/users" : {
+      "get" : {
+        "description" : "Returns a list of users",
+        "parameters" : [ {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "Limits the number of items on a page",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "integer"
+          }
+        }, {
+          "name" : "offset",
+          "in" : "query",
+          "description" : "Specifies the page number of the users to be displayed",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "integer"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successfully returned a list of users",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/inline_response_200"
+                  }
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid request",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/inline_response_400"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post" : {
+        "description" : "Lets a user post a new user",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/users_body"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Successfully created a new artist"
+          },
+          "400" : {
+            "description" : "Invalid request",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/inline_response_400"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "users_body" : {
+        "required" : [ "username" ],
+        "type" : "object",
+        "properties" : {
+          "user_name" : {
+            "type" : "string"
+          },
+          "city" : {
+            "type" : "string"
+          },
+          "house1_street" : {
+            "type" : "string"
+          },
+          "house2_street" : {
+            "type" : "string"
+          },
+          "house3_street" : {
+            "type" : "string"
+          }
+        }
+      },
+      "inline_response_200" : {
+        "required" : [ "username" ],
+        "type" : "object",
+        "properties" : {
+          "user_name" : {
+            "type" : "string"
+          },
+          "city" : {
+            "type" : "string"
+          },
+          "house1_street" : {
+            "type" : "string"
+          },
+          "house2_street" : {
+            "type" : "string"
+          },
+          "house3_street" : {
+            "type" : "string"
+          }
+        }
+      },
+      "inline_response_400" : {
+        "type" : "object",
+        "properties" : {
+          "message" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "securitySchemes" : {
+      "BasicAuth" : {
+        "type" : "http",
+        "scheme" : "basic"
+      }
+    }
+  }
+}
