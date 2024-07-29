@@ -2,7 +2,7 @@
   "openapi" : "3.0.0",
   "info" : {
     "title" : "api2",
-    "description" : "TEST OF FEATURES",
+    "description" : "4P_API_partnet_engineer",
     "version" : "1.0.0"
   },
   "servers" : [ {
